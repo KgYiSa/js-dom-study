@@ -2,18 +2,20 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>JavaScript图片库</title>
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
 <h1>JavaScript图片库</h1>
 <ul>
-    <li><a href="img/a_d.png" onclick="showPic(this);return false;">搜索</a></li>
-    <li><a href="img/a_r.png" onclick="showPic(this);return false;">定位</a></li>
-    <li><a href="img/a3o.png" onclick="showPic(this);return false;">音乐</a> </li>
-    <li><a href="img/afa.png" onclick="showPic(this);return false;">音乐</a></li>
-    <li><a href="img/ak4.png" onclick="showPic(this);return false;">赞一个</a></li>
+    <li><a href="img/a_d.png" onclick="showPic(this);return false;" title="搜索图标">搜索</a></li>
+    <li><a href="img/a_r.png" onclick="showPic(this);return false;" title="定位图标">定位</a></li>
+    <li><a href="img/a3o.png" onclick="showPic(this);return false;" title="音乐图标">音乐</a> </li>
+    <li><a href="img/afa.png" onclick="showPic(this);return false;" title="电话图标">电话</a></li>
+    <li><a href="img/ak4.png" onclick="showPic(this);return false;" title="赞一个图标">赞一个</a></li>
 </ul>
 <img id="placeholder" src="img/a_r.png" alt="默认图标">
+<p id="description">定位</p>
 <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

@@ -3,6 +3,9 @@ function showPic(whichpic){
     var source=whichpic.getAttribute("href");
     var placeholder=document.getElementById("placeholder");
     placeholder.setAttribute("src",source);
+    var text=whichpic.getAttribute("title");
+    var description=document.getElementById("description");
+    description.firstChild.nodeValue=text;
 }
 //统计body元素的所有子元素个数
 function countBodyChildren(){
